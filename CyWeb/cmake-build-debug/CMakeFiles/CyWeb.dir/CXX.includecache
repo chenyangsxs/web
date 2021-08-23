@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chenyang/Doc/CyWork/CyWeb/CyWebserver.h
+threadpool/threadpool.h
+/home/chenyang/Doc/CyWork/CyWeb/threadpool/threadpool.h
+
+/home/chenyang/Doc/CyWork/CyWeb/main.cpp
+iostream
+-
+CyWebserver.h
+/home/chenyang/Doc/CyWork/CyWeb/CyWebserver.h
+
+/home/chenyang/Doc/CyWork/CyWeb/threadpool/threadpool.h
+
