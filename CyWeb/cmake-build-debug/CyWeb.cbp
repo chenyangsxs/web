@@ -8,116 +8,100 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug"/>
+				<Option working_dir="/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug"/>
+				<Option working_dir="/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CyWeb">
-				<Option output="/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/CyWeb" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 CyWeb"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="CyWeb/fast">
-				<Option output="/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/CyWeb" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 CyWeb/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug"/>
+				<Option working_dir="/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/chenyang/Doc/CyWork/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CyWeb">
+				<Option output="/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/CyWeb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chenyang/work/clionwork/web/CyWeb/./include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 CyWeb"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CyWeb/fast">
+				<Option output="/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/CyWeb" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chenyang/work/clionwork/web/CyWeb/./include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 CyWeb/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/CyWebserver.cpp">
+		<Unit filename="/home/chenyang/work/clionwork/web/CyWeb/src/CyWebserver.cpp">
 			<Option target="CyWeb"/>
 		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/CyWebserver.h">
+		<Unit filename="/home/chenyang/work/clionwork/web/CyWeb/src/http_conn.cpp">
 			<Option target="CyWeb"/>
 		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/http/http_conn.cpp">
+		<Unit filename="/home/chenyang/work/clionwork/web/CyWeb/src/main.cpp">
 			<Option target="CyWeb"/>
 		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/http/http_conn.h">
+		<Unit filename="/home/chenyang/work/clionwork/web/CyWeb/src/timer.cpp">
 			<Option target="CyWeb"/>
 		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/lock/locker.h">
+		<Unit filename="/home/chenyang/work/clionwork/web/CyWeb/src/tools.cpp">
 			<Option target="CyWeb"/>
 		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/main.cpp">
-			<Option target="CyWeb"/>
-		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/threadpool/threadpool.h">
-			<Option target="CyWeb"/>
-		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/time/timer.cpp">
-			<Option target="CyWeb"/>
-		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/time/timer.h">
-			<Option target="CyWeb"/>
-		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/tools.cpp">
-			<Option target="CyWeb"/>
-		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/tools.h">
-			<Option target="CyWeb"/>
-		</Unit>
-		<Unit filename="/home/chenyang/Doc/CyWork/CyWeb/CMakeLists.txt">
+		<Unit filename="/home/chenyang/work/clionwork/web/CyWeb/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

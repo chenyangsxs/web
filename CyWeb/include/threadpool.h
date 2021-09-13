@@ -12,14 +12,14 @@
 #include <cstdio>
 #include <exception>
 #include <pthread.h>
-#include "../lock/locker.h"
+#include "locker.h"
 
 template <typename T>
 class threadpool{
 public:
     threadpool(int thread_number,int max_requests);
     ~threadpool();
-    bool append(T* request);//天际爱到任务队列
+    bool append(T* request);//添加到任务队列
 
 private:
     static void* worker(void* arg);//工作线程运行的函数，不断从任务队列取出任务

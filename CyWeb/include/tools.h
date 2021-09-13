@@ -5,6 +5,7 @@
 #ifndef CYWEB_TOOLS_H
 #define CYWEB_TOOLS_H
 
+#include <unistd.h>
 #include "sys/socket.h"
 #include "fcntl.h"
 #include <sys/epoll.h>
@@ -29,11 +30,13 @@ public:
     //static void sig_handler(int sig);
 
     //设置信号函数
-    void addsig(int sig, void(handler)(int), bool restart = true);
-
-    //定时处理任务，重新定时以不断触发SIGALRM信号
-    //void timer_handler();
+    //void addsig(int sig, void(handler)(int), bool restart = true);
 
     //void show_error(int connfd, const char *info);
+
+    //发送错误信息
+    void showerror(int connfd, const char *info);
+    static int m_epollfd;
 };
+
 #endif //CYWEB_TOOLS_H

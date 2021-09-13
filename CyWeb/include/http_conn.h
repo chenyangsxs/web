@@ -25,7 +25,7 @@
 #include <sys/uio.h>
 #include <map>
 
-#include "../lock/locker.h"
+#include "locker.h"
 
 class http_conn
 {
@@ -78,7 +78,7 @@ public:
     ~http_conn() {}
 
 public:
-    void init(int sockfd, const sockaddr_in &addr);
+    void init(int sockfd, const sockaddr_in &addr,char* root);
     void close_conn(bool real_close = true);
     void process();//处理客户请求
     bool read_once();

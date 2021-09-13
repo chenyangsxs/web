@@ -24,13 +24,20 @@ void tools::addfd(int epollfd, int fd, bool one_shot)
     setnonblocking(fd);
 }
 //设置信号函数
-void tools::addsig(int sig, void(handler)(int), bool restart)
+//void tools::addsig(int sig, void(handler)(int), bool restart)
+//{
+//    struct sigaction sa;
+//    memset(&sa, '\0', sizeof(sa));
+//    sa.sa_handler = handler;
+//    if (restart)
+//        sa.sa_flags |= SA_RESTART;
+//    sigfillset(&sa.sa_mask);
+//    assert(sigaction(sig, &sa, NULL) != -1);
+//}
+//
+void tools::showerror(int connfd, const char *info)
 {
-    struct sigaction sa;
-    memset(&sa, '\0', sizeof(sa));
-    sa.sa_handler = handler;
-    if (restart)
-        sa.sa_flags |= SA_RESTART;
-    sigfillset(&sa.sa_mask);
-    assert(sigaction(sig, &sa, NULL) != -1);
+    send(connfd, info, strlen(info), 0);
+    close(connfd);
 }
+int tools::m_epollfd;
