@@ -1,4 +1,0 @@
-/home/chenyang/downloads/CLion-2018.2.7/clion-2018.2.7/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/chenyang/work/clionwork/web/CyWeb
--- Configuring done
--- Generating done
--- Build files have been written to: /home/chenyang/work/clionwork/web/CyWeb/cmake-build-debug
